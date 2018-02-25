@@ -1,0 +1,5 @@
+print('==== DESAFIO 25 ====\n\n')
+MeloGayMesmo = str(input('Por gentileza digite seu nome completo: ')).strip()
+MeloMuitoGayMesmo = MeloGayMesmo.upper()
+print('Analisando o nome {}...\n'.format(MeloGayMesmo))
+print('Existe Silva em seu nome: {}'.format('SILVA' in MeloMuitoGayMesmo.split()))
