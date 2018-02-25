@@ -1,0 +1,9 @@
+print('==== DESAFIO 31 ====\n')
+print('Preço de Viagem:\n\n')
+distância = float(input('Por gentileza digite a DISTÂNCIA de sua viagem em Km: '))
+if distância > 200:
+    Passagem = (distância * 0.45)
+    print('Sua Passagem custará: R${:.2f}'.format(Passagem))
+else:
+    Passagem = (distância * 0.5)
+    print('Sua Passagem custará: R${:.2f}'.format(Passagem))
