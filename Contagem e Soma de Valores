@@ -1,0 +1,8 @@
+print('==== DESAFIO 64 ====\n\n')
+cont = n = soma = 0
+n = int(input('Digite um valor inteiro [999 para encerrar]: '))
+while n != 999:
+    soma += n
+    cont += 1
+    n = int(input('Digite um valor inteiro [999 para encerrar]: '))
+print('Você digitou {} valores e a soma geral é igual a {}'.format(cont, soma))
